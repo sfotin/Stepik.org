@@ -1,0 +1,5 @@
+file_name = input()
+file = open(file_name, 'r', encoding='utf-8')
+content = file.readlines()
+print(content[-2])
+file.close()
